@@ -1,0 +1,82 @@
+<div class="container">
+
+  <mat-toolbar color="primary">
+
+    <button mat-icon-button (click)="snav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+    <h1 class="title">Welcome {{username}} </h1>
+
+  </mat-toolbar>
+
+
+
+  <mat-sidenav-container class="sidenav-container">
+
+    <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'" [fixedInViewport]="mobileQuery.matches"
+      fixedTopGap="56">
+
+      <mat-nav-list>
+        <a mat-list-item (click)="createGame()">Create Game</a>
+        <a mat-list-item (click)="joinGame()">Join Game</a>
+        <a mat-list-item (click)="singleGame()">Single Game</a>
+        <a mat-list-item (click)="score()">Score</a>
+        <a mat-list-item (click)="gameScore()">Game Score</a>
+        <a mat-list-item (click)="logout()">Logout</a>
+
+
+      </mat-nav-list>
+
+    </mat-sidenav>
+
+
+
+    <mat-sidenav-content>
+      <mat-card style="align-items:center;">
+        <mat-card-title>{{igra}}  {{timeLeft}} Seconds Left....</mat-card-title>
+        <mat-card-content>
+          <form (ngSubmit)="submit()">
+            <div #container></div>
+
+            <p *ngIf="error" class="error">
+              {{ error }}
+            </p>
+
+            <form>
+
+
+              <p *ngIf="kraj" class="bodovi">
+                Anagram: {{ bodoviAnagram }}<br>
+                Moj Broj: {{ bodoviMojBroj }}<br>
+                5x5: {{ bodoviPet }}<br>
+                Geografija: {{ bodoviGeografija }}<br>
+                Pehar: {{ bodoviPehar }}<br>
+                Ukupno: {{bodovi}}<br>
+              </p>
+
+
+
+            </form>
+
+            <div class="container-login100-form-btn">
+              <div class="wrap-login100-form-btn">
+                <div class="login100-form-bgbtn"></div>
+                <button type="submit" class="login100-form-btn" mat-button>
+                  {{buttonText}}
+                </button>
+              </div>
+            </div>
+
+
+          </form>
+        </mat-card-content>
+
+      </mat-card>
+      
+      
+    </mat-sidenav-content>
+
+  </mat-sidenav-container>
+
+</div>

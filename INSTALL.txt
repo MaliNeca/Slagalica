@@ -1,0 +1,9 @@
+C:\Users\admin\Desktop\projekat\frontend\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\webpack-configs
+node:  { crypto: true, stream: true }
+
+npm install --save @angular/material@7
+npm install --save @angular/cdk@7
+npm install @angular/animations --save
+npm install --save rxjs-compat
+npm install crypto
+npm install password-hash

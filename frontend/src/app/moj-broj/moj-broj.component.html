@@ -1,0 +1,30 @@
+<form [formGroup]="mojBrojForm" (ngSubmit)="submit()">
+    <mat-grid-list cols="8" rowHeight="100px" >
+        <mat-grid-tile
+            *ngFor="let tile of tiles"
+            [colspan]="tile.cols"
+            [rowspan]="tile.rows"
+            [style.background]="tile.color"
+            [style.visibility] = "hidden">
+            {{tile.value}}
+          
+        </mat-grid-tile>
+        
+      </mat-grid-list>
+
+
+  <div class="container-login100-form-btn">
+    <div class="wrap-login100-form-btn">
+      <div class="login100-form-bgbtn"></div>
+      <button type="submit" class="login100-form-btn" mat-button>
+        Stop
+      </button>
+    </div>
+  </div>
+
+  <p>
+    <mat-form-field>
+      <input type="text" matInput placeholder="Odgovor" formControlName="odgovor">
+    </mat-form-field>
+  </p>
+</form>

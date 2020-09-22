@@ -1,0 +1,21 @@
+{
+    "_id" : ObjectId("5d5977671dc909354ec83724"),
+    "id" : 1,
+    "Anagrami" : [ 
+        {
+            "_id" : ObjectId("5d59838e7e9a8b195c6e904f"),
+            "zagonetka" : "Preki driblaju blesave",
+            "resenje" : "Vlada republike Srbije"
+        }, 
+        {
+            "_id" : ObjectId("5d59838e7e9a8b195c6e9050"),
+            "zagonetka" : "Krasan je odmor",
+            "resenje" : "Jadransko more"
+        }, 
+        {
+            "_id" : ObjectId("5d59838e7e9a8b195c6e9051"),
+            "zagonetka" : "Ura, bekrije!",
+            "resenje" : "Bure rakije"
+        }
+    ]
+}

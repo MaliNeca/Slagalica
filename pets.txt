@@ -1,0 +1,47 @@
+{
+    "_id" : ObjectId("5d5984361dc909354ec83fea"),
+    "id" : 1,
+    "5x5" : [ 
+        {
+            "1" : "disko",
+            "2" : "usput",
+            "3" : "škoti",
+            "4" : "korac",
+            "5" : "opaki"
+        }, 
+        {
+            "1" : "staja",
+            "2" : "valok",
+            "3" : "epovi",
+            "4" : "tivat",
+            "5" : "irina"
+        }, 
+        {
+            "1" : "disko",
+            "2" : "usput",
+            "3" : "škoti",
+            "4" : "korac",
+            "5" : "opaki",
+            "_id" : ObjectId("5d5988bc6f8cb012f4a3689f")
+        }, 
+        {
+            "1" : "staja",
+            "2" : "valok",
+            "3" : "epovi",
+            "4" : "tivat",
+            "5" : "irina",
+            "_id" : ObjectId("5d5988bc6f8cb012f4a368a0")
+        }, 
+        {
+            "1" : "a",
+            "2" : "b",
+            "3" : "v",
+            "4" : "d",
+            "5" : "dd",
+            "_id" : ObjectId("5d5988d26f8cb012f4a368a1")
+        }, 
+        {
+            "_id" : ObjectId("5d59ac1d29fa101260b14904")
+        }
+    ]
+}

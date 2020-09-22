@@ -1,0 +1,116 @@
+{
+    "_id" : ObjectId("5d59bcf61dc909354ec85288"),
+    "id" : 1,
+    "Pehar" : [ 
+        {
+            "3" : {
+                "Pitanje" : "Konji u narodnim pesmama",
+                "Odgovor" : "ati"
+            },
+            "_id" : ObjectId("5d59be2360a6fa16007df2a4"),
+            "9G" : {
+                "Pitanje" : "Vrsta ratnog broda",
+                "Odgovor" : "krstarica"
+            },
+            "8G" : {
+                "Pitanje" : "Mala krasta",
+                "Odgovor" : "krastica"
+            },
+            "7G" : {
+                "Pitanje" : "Stara zena",
+                "Odgovor" : "starica"
+            },
+            "6G" : {
+                "Pitanje" : "Ime pevacice Montiel",
+                "Odgovor" : "Sarita"
+            },
+            "5G" : {
+                "Pitanje" : "Covek koji koristi rešeto",
+                "Odgovor" : "sitar"
+            },
+            "4G" : {
+                "Pitanje" : "Ime glumice Hayworth",
+                "Odgovor" : "Rita"
+            },
+            "4D" : {
+                "Pitanje" : "Prkos ili",
+                "Odgovor" : "inat"
+            },
+            "5D" : {
+                "Pitanje" : "Stara mera za tecnost",
+                "Odgovor" : "pinta"
+            },
+            "6D" : {
+                "Pitanje" : "Zelenkasta rda",
+                "Odgovor" : "patina"
+            },
+            "7D" : {
+                "Pitanje" : "Izvršiti napad",
+                "Odgovor" : "napasti"
+            },
+            "8D" : {
+                "Pitanje" : "Država u Aziji",
+                "Odgovor" : "Pakistan"
+            },
+            "9D" : {
+                "Pitanje" : "Odobrenje ili saglasnost",
+                "Odgovor" : "pristanak"
+            }
+        }, 
+        {
+            "3" : {
+                "Pitanje" : "Vodeni ljuskar",
+                "Odgovor" : "rak"
+            },
+            "_id" : ObjectId("5d59be2360a6fa16007df2a5"),
+            "9G" : {
+                "Pitanje" : "Kraljevski dvorac u blizini Madrida",
+                "Odgovor" : "Eskorijal"
+            },
+            "8G" : {
+                "Pitanje" : "Vozaci kola",
+                "Odgovor" : "kolesari"
+            },
+            "7G" : {
+                "Pitanje" : "splavari ili",
+                "Odgovor" : "skelari"
+            },
+            "6G" : {
+                "Pitanje" : "Nemacki šahovski velemajstor Emanuel",
+                "Odgovor" : "Lasker"
+            },
+            "5G" : {
+                "Pitanje" : "Programski jezik za pocetnike",
+                "Odgovor" : "Karel"
+            },
+            "4G" : {
+                "Pitanje" : "Vodeni tok",
+                "Odgovor" : "reka"
+            },
+            "4D" : {
+                "Pitanje" : "Takmicenje u brzini",
+                "Odgovor" : "trka"
+            },
+            "5D" : {
+                "Pitanje" : "Drugi naziv za ulaznice",
+                "Odgovor" : "karte"
+            },
+            "6D" : {
+                "Pitanje" : "Osoba koja pravi cetke",
+                "Odgovor" : "cetkar"
+            },
+            "7D" : {
+                "Pitanje" : "Obrtac ili",
+                "Odgovor" : "okretac"
+            },
+            "8D" : {
+                "Pitanje" : "Žene koje se bave stocarstvom",
+                "Odgovor" : "stocarke"
+            },
+            "9D" : {
+                "Pitanje" : "Glasnik, glasonoša ili",
+                "Odgovor" : "skoroteca"
+            }
+        }
+    ]
+}

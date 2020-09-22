@@ -1,0 +1,31 @@
+<form [formGroup]="petGameForm" (ngSubmit)="submit()">
+    <mat-grid-list cols="5" rowHeight="100px" >
+        <mat-grid-tile
+            *ngFor="let tile of tiles"
+            [colspan]="tile.cols"
+            [rowspan]="tile.rows"
+            [style.background]="tile.color">
+            <div *ngIf="tile.show">
+                {{tile.value}}
+                
+            </div>
+        </mat-grid-tile>
+        
+      </mat-grid-list>
+
+
+  <div class="container-login100-form-btn">
+    <div class="wrap-login100-form-btn">
+      <div class="login100-form-bgbtn"></div>
+      <button type="submit" class="login100-form-btn" mat-button>
+        Insert
+      </button>
+    </div>
+  </div>
+
+  <p>
+    <mat-form-field>
+      <input type="text" maxlength="2" matInput placeholder="Slovo" formControlName="odgovor">
+    </mat-form-field>
+  </p>
+</form>

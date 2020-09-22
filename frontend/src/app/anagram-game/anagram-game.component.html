@@ -1,0 +1,12 @@
+
+<form [formGroup]="anagramForm" (ngSubmit)="submit()">
+  <p>
+    {{pitanje}}
+  </p>
+
+  <p>
+    <mat-form-field>
+      <input type="text" matInput placeholder="Odgovor" formControlName="odgovor">
+    </mat-form-field>
+  </p>
+  </form>

@@ -1,0 +1,138 @@
+{
+    "_id" : ObjectId("5d5d7e591104d02bfebafca2"),
+    "__v" : 0,
+    "anagramID" : "Preki driblaju blesavee",
+    "datum" : ISODate("2019-08-01T23:10:10.000Z"),
+    "peharID" : "Vrsta ratnog broda",
+    "users" : [ 
+        {
+            "_id" : ObjectId("5d5d74d82b51c706b0aa7ce3"),
+            "username" : "neca",
+            "bodovi" : 1500
+        }, 
+        {
+            "_id" : ObjectId("5d5d78ed2b51c706b0aa7ce4"),
+            "username" : "user",
+            "bodovi" : 9
+        }, 
+        {
+            "_id" : ObjectId("5d5d74d82b51c706b0aa7ce3"),
+            "username" : "super",
+            "bodovi" : 15
+        }, 
+        {
+            "_id" : ObjectId("5d5d74d82b51c706b0aa7ce3"),
+            "username" : "super",
+            "bodovi" : 15
+        }, 
+        {
+            "_id" : ObjectId("5d5d74d82b51c706b0aa7ce3"),
+            "username" : "super",
+            "bodovi" : 15
+        }, 
+        {
+            "_id" : ObjectId("5d5d74d82b51c706b0aa7ce3"),
+            "username" : "super",
+            "bodovi" : 15
+        }, 
+        {
+            "_id" : ObjectId("5d5d74d82b51c706b0aa7ce3"),
+            "username" : "super",
+            "bodovi" : 15
+        }, 
+        {
+            "_id" : ObjectId("5d5d74d82b51c706b0aa7ce3"),
+            "username" : "super",
+            "bodovi" : 15
+        }, 
+        {
+            "_id" : ObjectId("5d5d74d82b51c706b0aa7ce3"),
+            "username" : "super",
+            "bodovi" : 15
+        }, 
+        {
+            "_id" : ObjectId("5d5d74d82b51c706b0aa7ce3"),
+            "username" : "super",
+            "bodovi" : 15
+        }, 
+        {
+            "_id" : ObjectId("5d5d74d82b51c706b0aa7ce3"),
+            "username" : "super",
+            "bodovi" : 15
+        }, 
+        {
+            "_id" : ObjectId("5d5d74d82b51c706b0aa7ce3"),
+            "username" : "super",
+            "bodovi" : 15
+        }, 
+        {
+            "_id" : ObjectId("5d5d74d82b51c706b0aa7ce3"),
+            "username" : "super",
+            "bodovi" : 15
+        }
+    ]
+}
+
+
+
+//2
+{
+    "_id" : ObjectId("5d5dc1fe5997021863ff58d5"),
+    "__v" : 0,
+    "anagramID" : "Krasan je odmor",
+    "datum" : ISODate("2019-08-22T08:10:10.000Z"),
+    "peharID" : "Kraljevski dvorac u blizini Madrida",
+    "users" : [ 
+        {
+            "_id" : ObjectId("5d5dc335e0fd6a08f813b752"),
+            "username" : "userda",
+            "bodovi" : 30
+        }, 
+        {
+            "_id" : ObjectId("5d5dce7b66dcb511ac3797c0"),
+            "username" : "user",
+            "bodovi" : 0
+        }
+    ]
+}
+//3
+{
+    "_id" : ObjectId("5d6134fc2f2ce596cf008db3"),
+    "__v" : 0,
+    "anagramID" : "Preki driblaju blesave",
+    "datum" : ISODate("2019-08-24T08:10:10.000Z"),
+    "peharID" : "Vrsta ratnog broda",
+    "users" : [ 
+        {
+            "_id" : ObjectId("5d6135c05d563903fc3fbde4"),
+            "username" : "user",
+            "bodovi" : 37
+        }
+    ]
+}
+
+//4
+{
+    "_id" : ObjectId("5d6bb76e2c060c86ff0fe52d"),
+    "__v" : 0,
+    "anagramID" : "Krasan je odmor",
+    "datum" : ISODate("2019-09-01T08:10:10.000Z"),
+    "peharID" : "Kraljevski dvorac u blizini Madrida",
+    "users" : [ 
+        {
+            "_id" : ObjectId("5d6bcd92f768e50c4cc5b8a1"),
+            "username" : "user",
+            "bodovi" : 0
+        }
+    ]
+}
+
+//5
+
+{
+    "_id" : ObjectId("5d6bccb42c060c86ff1085f0"),
+    "anagramID" : "Krasan je odmor",
+    "datum" : ISODate("2019-09-02T08:10:10.000Z"),
+    "peharID" : "Kraljevski dvorac u blizini Madrida",
+    "users" : []
+}

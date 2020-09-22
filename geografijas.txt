@@ -1,0 +1,153 @@
+{
+    "_id" : ObjectId("5d5b5f2cae35a45c3e62fc4c"),
+    "Geografija" : [ 
+	{
+            "slovo" : "A",
+            "odgovori" : [ 
+                {
+                    "kategorija" : "drzava",
+                    "termin" : "Andora,Angola,Australija,Austrija"
+                }, 
+                {
+                    "kategorija" : "grad",
+                    "termin" : "Atina,Aleksinac,Alzir"
+                }, 
+                {
+                    "kategorija" : "jezero",
+                    "termin" : "Albano,Aralsko,Arenal"
+                }, 
+                {
+                    "kategorija" : "planina",
+                    "termin" : "Avala,Alpi,Andi,Ararat"
+                }, 
+                {
+                    "kategorija" : "reka",
+                    "termin" : "Amazon,Amur,Angara,Arno"
+                }, 
+                {
+                    "kategorija" : "zivotinja",
+                    "termin" : "ara,ajkula,antilopa"
+                }, 
+                {
+                    "kategorija" : "biljka",
+                    "termin" : "aronija,anis,adam,aloja,ananas"
+                }, 
+                {
+                    "kategorija" : "muzika",
+                    "termin" : "Abba"
+                }
+            ]
+        },
+	{
+            "slovo" : "R",
+            "odgovori" : [ 
+                {
+                    "kategorija" : "drzava",
+                    "termin" : "Rumunija,Rusija,Ruanda"
+                }, 
+                {
+                    "kategorija" : "grad",
+                    "termin" : "Ruma,Rovinj,Rim"
+                }, 
+                {
+                    "kategorija" : "jezero",
+                    "termin" : "Rusanda,Ribnicko"
+                }, 
+                {
+                    "kategorija" : "planina",
+                    "termin" : "Rudnik,Rtanj,Radan"
+                }, 
+                {
+                    "kategorija" : "reka",
+                    "termin" : "Rasina,Resava,Rajna"
+                }, 
+                {
+                    "kategorija" : "zivotinja",
+                    "termin" : "ris,rak,rakun"
+                }, 
+                {
+                    "kategorija" : "biljka",
+                    "termin" : "ruza,ren,ribizla"
+                }, 
+                {
+                    "kategorija" : "muzika",
+                    "termin" : "R"
+                }
+            ]
+        },
+        {
+            "slovo" : "K",
+            "odgovori" : [ 
+                {
+                    "kategorija" : "drzava",
+                    "termin" : "Kina,Kuvajt,Kipar"
+                }, 
+                {
+                    "kategorija" : "grad",
+                    "termin" : "Kragujevac,Kraljevo"
+                }, 
+                {
+                    "kategorija" : "jezero",
+                    "termin" : "Kaspijsko"
+                }, 
+                {
+                    "kategorija" : "planina",
+                    "termin" : "Kopaonik"
+                }, 
+                {
+                    "kategorija" : "reka",
+                    "termin" : "Krka"
+                }, 
+                {
+                    "kategorija" : "zivotinja",
+                    "termin" : "konj"
+                }, 
+                {
+                    "kategorija" : "biljka",
+                    "termin" : "krompir,karfiol"
+                }, 
+                {
+                    "kategorija" : "muzika",
+                    "termin" : "Kvin,Kosheen"
+                }
+            ]
+        }, 
+        {
+            "slovo" : "V",
+            "odgovori" : [ 
+                {
+                    "kategorija" : "drzava",
+                    "termin" : "Vijetnam,Venecuela"
+                }, 
+                {
+                    "kategorija" : "grad",
+                    "termin" : "Valjevo,Vrsac"
+                }, 
+                {
+                    "kategorija" : "jezero",
+                    "termin" : "Vlasinsko"
+                }, 
+                {
+                    "kategorija" : "planina",
+                    "termin" : "Vlasic"
+                }, 
+                {
+                    "kategorija" : "reka",
+                    "termin" : "Velika Morava"
+                }, 
+                {
+                    "kategorija" : "zivotinja",
+                    "termin" : "veverica"
+                }, 
+                {
+                    "kategorija" : "biljka",
+                    "termin" : "visnja"
+                }, 
+                {
+                    "kategorija" : "muzika",
+                    "termin" : "Van gog,Vampiri"
+                }
+            ]
+        }
+    ]
+}

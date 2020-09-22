@@ -1,0 +1,239 @@
+<div class="container">
+
+  <mat-toolbar color="primary">
+
+    <button mat-icon-button (click)="snav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+    <h1 class="title">Welcome {{username}} </h1>
+
+  </mat-toolbar>
+
+
+
+  <mat-sidenav-container class="sidenav-container">
+
+    <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'" [fixedInViewport]="mobileQuery.matches"
+      fixedTopGap="56">
+
+      <mat-nav-list>
+        <a mat-list-item (click)="anagram()">Anagram</a>
+        <a mat-list-item (click)="five()">5x5</a>
+        <a mat-list-item (click)="zanimljivaGeografija()">ZanimljivaGeografija</a>
+        <a mat-list-item (click)="pehar()">Pehar</a>
+        <a mat-list-item (click)="logout()">Logout</a>
+
+
+      </mat-nav-list>
+
+    </mat-sidenav>
+
+
+
+    <mat-sidenav-content>
+
+      <mat-card style="align-items:center;">
+        <mat-card-title>Insert Pehar</mat-card-title>
+        <mat-card-content>
+          <form [formGroup]="peharForm" (ngSubmit)="submit()">
+
+
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Pitanje 9G" formControlName="pitanje9G">
+              </mat-form-field>
+            </p>
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Odgovor 9G" formControlName="odgovor9G">
+              </mat-form-field>
+            </p>
+
+
+
+
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Pitanje 8G" formControlName="pitanje8G">
+              </mat-form-field>
+            </p>
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Odgovor 8G" formControlName="odgovor8G">
+              </mat-form-field>
+            </p>
+
+
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Pitanje 7G" formControlName="pitanje7G">
+              </mat-form-field>
+            </p>
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Odgovor 7G" formControlName="odgovor7G">
+              </mat-form-field>
+            </p>
+
+
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Pitanje 6G" formControlName="pitanje6G">
+              </mat-form-field>
+            </p>
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Odgovor 6G" formControlName="odgovor6G">
+              </mat-form-field>
+            </p>
+
+
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Pitanje 5G" formControlName="pitanje5G">
+              </mat-form-field>
+            </p>
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Odgovor 5G" formControlName="odgovor5G">
+              </mat-form-field>
+            </p>
+
+
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Pitanje 4G" formControlName="pitanje4G">
+              </mat-form-field>
+            </p>
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Odgovor 4G" formControlName="odgovor4G">
+              </mat-form-field>
+            </p>
+
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Pitanje 3" formControlName="pitanje3">
+              </mat-form-field>
+            </p>
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Odgovor 3" formControlName="odgovor3">
+              </mat-form-field>
+            </p>
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Pitanje 4D" formControlName="pitanje4D">
+              </mat-form-field>
+            </p>
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Odgovor 4D" formControlName="odgovor4D">
+              </mat-form-field>
+            </p>
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Pitanje 5D" formControlName="pitanje5D">
+              </mat-form-field>
+            </p>
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Odgovor 5D" formControlName="odgovor5D">
+              </mat-form-field>
+            </p>
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Pitanje 6D" formControlName="pitanje6D">
+              </mat-form-field>
+            </p>
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Odgovor 6D" formControlName="odgovor6D">
+              </mat-form-field>
+            </p>
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Pitanje 7D" formControlName="pitanje7D">
+              </mat-form-field>
+            </p>
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Odgovor 7D" formControlName="odgovor7D">
+              </mat-form-field>
+            </p>
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Pitanje 8D" formControlName="pitanje8D">
+              </mat-form-field>
+            </p>
+
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Odgovor 8D" formControlName="odgovor8D">
+              </mat-form-field>
+            </p>
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Pitanje 9D" formControlName="pitanje9D">
+              </mat-form-field>
+
+            </p>
+            <p>
+              <mat-form-field>
+                <input type="text" matInput placeholder="Odgovor 9D" formControlName="odgovor9D">
+              </mat-form-field>
+            </p>
+
+
+
+
+            <p>
+
+              <input type="file" placeholder="JSON" formControlName="jsonFile" (change)="onFileChange($event)">
+
+            </p>
+            <p *ngIf="error" class="error">
+              {{ error }}
+            </p>
+
+            <div class="container-login100-form-btn">
+              <div class="wrap-login100-form-btn">
+                <div class="login100-form-bgbtn"></div>
+                <button type="submit" class="login100-form-btn" mat-button>
+                  Insert
+                </button>
+              </div>
+            </div>
+
+
+          </form>
+        </mat-card-content>
+
+      </mat-card>
+
+
+    </mat-sidenav-content>
+
+  </mat-sidenav-container>
+
+</div>

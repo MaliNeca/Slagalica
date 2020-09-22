@@ -1,0 +1,147 @@
+<form [formGroup]="peharGameForm" (ngSubmit)="submit()">
+
+  <mat-grid-list cols="9" rowHeight="50px">
+    <mat-grid-tile *ngFor="let tile of tiles9" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
+      <div *ngIf="tile.show">
+        {{tile.value}}
+
+      </div>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+  <mat-grid-list cols="8" rowHeight="50px" class="red8">
+    <mat-grid-tile *ngFor="let tile of tiles8" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
+      <div *ngIf="tile.show">
+        {{tile.value}}
+
+      </div>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+  <mat-grid-list cols="7" rowHeight="50px" class="red7">
+    <mat-grid-tile *ngFor="let tile of tiles7" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
+      <div *ngIf="tile.show">
+        {{tile.value}}
+
+      </div>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+  <mat-grid-list cols="6" rowHeight="50px" class="red6">
+    <mat-grid-tile *ngFor="let tile of tiles6" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
+      <div *ngIf="tile.show">
+        {{tile.value}}
+
+      </div>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+  <mat-grid-list cols="5" rowHeight="50px" class="red5">
+    <mat-grid-tile *ngFor="let tile of tiles5" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
+      <div *ngIf="tile.show">
+        {{tile.value}}
+
+      </div>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+  <mat-grid-list cols="4" rowHeight="50px" class="red4">
+    <mat-grid-tile *ngFor="let tile of tiles4" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
+      <div *ngIf="tile.show">
+        {{tile.value}}
+
+      </div>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+  <mat-grid-list cols="3" rowHeight="50px" class="red3">
+    <mat-grid-tile *ngFor="let tile of tiles3" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
+      <div *ngIf="tile.show">
+        {{tile.value}}
+
+      </div>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+  <mat-grid-list cols="4" rowHeight="50px" class="red4">
+    <mat-grid-tile *ngFor="let tile of tiles4d" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
+      <div *ngIf="tile.show">
+        {{tile.value}}
+
+      </div>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+  <mat-grid-list cols="5" rowHeight="50px" class="red5">
+    <mat-grid-tile *ngFor="let tile of tiles5d" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
+      <div *ngIf="tile.show">
+        {{tile.value}}
+
+      </div>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+  <mat-grid-list cols="6" rowHeight="50px" class="red6">
+    <mat-grid-tile *ngFor="let tile of tiles6d" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
+      <div *ngIf="tile.show">
+        {{tile.value}}
+
+      </div>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+  <mat-grid-list cols="7" rowHeight="50px" class="red7">
+    <mat-grid-tile *ngFor="let tile of tiles7d" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
+      <div *ngIf="tile.show">
+        {{tile.value}}
+
+      </div>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+  <mat-grid-list cols="8" rowHeight="50px" class="red8">
+    <mat-grid-tile *ngFor="let tile of tiles8d" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
+      <div *ngIf="tile.show">
+        {{tile.value}}
+
+      </div>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+  <mat-grid-list cols="9" rowHeight="50px">
+    <mat-grid-tile *ngFor="let tile of tiles9d" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
+      <div *ngIf="tile.show">
+        {{tile.value}}
+
+      </div>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+
+
+
+
+  <div class="container-login100-form-btn">
+    <div class="wrap-login100-form-btn">
+      <div class="login100-form-bgbtn"></div>
+      <button type="submit" class="login100-form-btn" mat-button>
+        Insert
+      </button>
+    </div>
+  </div>
+  <h4>
+
+    {{pitanje}}
+
+  </h4>
+
+  <p>
+    <mat-form-field>
+      <input type="text" matInput placeholder="Odgovor" formControlName="odgovor">
+    </mat-form-field>
+  </p>
+
+
+
+
+</form>

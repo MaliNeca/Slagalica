@@ -1,0 +1,125 @@
+{
+    "_id" : ObjectId("5d56d507013c0e8c158c67d9"),
+    "firstName" : "Nemanja",
+    "lastName" : "Djokic",
+    "mail" : "user@user.com",
+    "occupation" : "student",
+    "username" : "super",
+    "password" : "sha1$69eb23d1$1$d8a40fcac8b7e3e034485a6671484e24acf942a7",
+    "gender" : "male",
+    "jmbg" : "0303994740086",
+    "picture" : "slika1",
+    "question" : "what was your",
+    "answer" : "asd",
+    "type" : "super",
+    "approved" : "yes"
+}
+
+//2
+{
+    "_id" : ObjectId("5d56d51d013c0e8c158c67e8"),
+    "firstName" : "Nikola",
+    "lastName" : "Djokic",
+    "mail" : "user@user.com",
+    "occupation" : "student",
+    "username" : "admin",
+    "password" : "sha1$bd61920b$1$9411778a52c3fdbc34842912efe9588919c155f9",
+    "gender" : "male",
+    "jmbg" : "0303994740086",
+    "picture" : "slika1",
+    "question" : "what was your",
+    "answer" : "asd",
+    "type" : "admin",
+    "approved" : "yes"
+}
+
+//3
+{
+    "_id" : ObjectId("5d56d530013c0e8c158c67f9"),
+    "firstName" : "Pera",
+    "lastName" : "Peric",
+    "mail" : "user@user.com",
+    "occupation" : "student",
+    "username" : "user",
+    "password" : "sha1$ad253c5c$1$c7fe8a943348182aa571c9758f86bcd477a25adc",
+    "gender" : "male",
+    "jmbg" : "0303994740086",
+    "picture" : "slika1",
+    "question" : "what was your",
+    "answer" : "asd",
+    "type" : "user",
+    "approved" : "yes"
+}
+//4
+{
+    "_id" : ObjectId("5d56dbd7f960ce1a9035aa63"),
+    "firstName" : "aca",
+    "lastName" : "aca",
+    "mail" : "aca@aca.com",
+    "occupation" : "s",
+    "username" : "aca",
+    "password" : "sha1$ad253c5c$1$c7fe8a943348182aa571c9758f86bcd477a25adc",
+    "gender" : "male",
+    "jmbg" : "1234567890123",
+    "picture" : "",
+    "question" : "option2",
+    "answer" : "basketball",
+    "type" : "user",
+    "approved" : "no",
+    "__v" : 0
+}
+//5
+{
+    "_id" : ObjectId("5d56dc5ff960ce1a9035aa64"),
+    "firstName" : "aca",
+    "lastName" : "ac",
+    "mail" : "aca@aca.com",
+    "occupation" : "s",
+    "username" : "acaa",
+    "password" : "qWerty1!",
+    "gender" : "male",
+    "jmbg" : "1234567890123",
+    "picture" : "",
+    "question" : "option3",
+    "answer" : "zvezda",
+    "type" : "user",
+    "approved" : "yes",
+    "__v" : 0
+}
+
+//6
+{
+    "_id" : ObjectId("5d61348b5d563903fc3fbde3"),
+    "firstName" : "Luka",
+    "lastName" : "Lukic",
+    "mail" : "luka@gmail.com",
+    "occupation" : "student",
+    "username" : "qwerty",
+    "password" : "sha1$ad253c5c$1$c7fe8a943348182aa571c9758f86bcd477a25adc",
+    "gender" : "male",
+    "jmbg" : "0203994740086",
+    "picture" : "",
+    "question" : "What was your favorite sport in high school?",
+    "answer" : "basketball",
+    "type" : "user",
+    "approved" : "no",
+    "__v" : 0
+}
+//7
+{
+    "_id" : ObjectId("5d6baa3d43b36313a8fcba75"),
+    "firstName" : "Nemanja",
+    "lastName" : "Djokic",
+    "mail" : "nemanja@nemanja.com",
+    "occupation" : "Student",
+    "username" : "Nemanja",
+    "password" : "sha1$ad253c5c$1$c7fe8a943348182aa571c9758f86bcd477a25adc",
+    "gender" : "male",
+    "jmbg" : "0303994740086",
+    "picture" : "",
+    "question" : "What was your favorite sport in high school?",
+    "answer" : "basketball",
+    "type" : "user",
+    "approved" : "yes",
+    "__v" : 0
+}
